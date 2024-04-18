@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: #000814;
+    color:gold;
+    font-family: "Pixelify Sans", sans-serif;
+    text-align: center;
+    padding: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.form {
+    background-color: #003566;
+    color: #ffd60a;
+    font-family: "Pixelify Sans", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    width:480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.footer {
+
+    background-color: #001d3d;
+    color:#ffd60a;
+    padding: 0, 5px;
+    text-align: center;
+}
+
+.display {
+    list-style-type: none;
+    width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Pixelify Sans", sans-serif;
+    text-align: center;
+    display: none;
+}   
+
+.display li:nth-child(even) {
+    background-color: #ffd60a;
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 200;
+    color: #001d3d;
+}
+
+.display li:nth-child(odd) {
+    background-color: #ffc300;
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 200;
+    color: #000814;
+}
+
+#footerText {
+    cursor: pointer;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: small;
+    font-weight: 100;
+}
+
+footer {
+    width: 235px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.footer:hover {
+    background-color: #003566;
+    color: #ffd60a;
+}
+
+li {
+    cursor: pointer;
+}
+
+#btnTask {
+    background-color: #ffc300;
+    color: #000814;
+    padding: 1px 5px;
+    cursor: pointer;
+    font-family: "Pixelify Sans", sans-serif;
+    border: none;
+    border-radius: 6.66%;
+}
+
+#btnTask:hover {
+    background-color: #ffd60a;
+    color: #001d3d;
+}
+
+input[type="text"]::placeholder {
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+
+
+/* paleta de cores
+#000814
+#001d3d
+#ffd60a
+#ffc300
+#003566
+*/ 

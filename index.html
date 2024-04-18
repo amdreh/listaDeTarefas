@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="./main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10+Charted&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Lista de Tarefas</h1>
+    </header>
+    <main>
+        <div class="form">
+            <form id="getTask">
+                <label for="btnTask">Nova Tarefa: </label> 
+                <input type="text" id="newTask" name="newTask"  placeholder="Digite aqui a tarefa" required>
+                <button type="submit" id="btnTask" title="Clique para adicionar uma nova tarefa" >Adicionar</button>
+            </form>
+        </div>
+
+        <div class="display">
+            <ul id="taskList">
+                    <!-- Aqui vão ficar as tarefas -->
+            </ul>
+        </div>
+
+        <footer>
+            <div class="footer">
+                <label id="footerText">Sua lista está vazia</label>
+            </div>
+        </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
+<!--? Alerta-->
